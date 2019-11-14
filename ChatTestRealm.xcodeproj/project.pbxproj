@@ -3,27 +3,37 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2A6DA816237CEDD800099524 /* WelcomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A6DA815237CEDD800099524 /* WelcomeViewController.swift */; };
+		2A6DA818237CEDE500099524 /* ItemViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A6DA817237CEDE500099524 /* ItemViewController.swift */; };
+		2A6DA81A237CEE2200099524 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A6DA819237CEE2200099524 /* Constants.swift */; };
+		2A6DA81C237CF14700099524 /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A6DA81B237CF14700099524 /* Item.swift */; };
 		2AB36E42237CE1B500C1867D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AB36E41237CE1B500C1867D /* AppDelegate.swift */; };
 		2AB36E44237CE1B500C1867D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AB36E43237CE1B500C1867D /* SceneDelegate.swift */; };
-		2AB36E46237CE1B500C1867D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AB36E45237CE1B500C1867D /* ViewController.swift */; };
 		2AB36E49237CE1B500C1867D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2AB36E47237CE1B500C1867D /* Main.storyboard */; };
 		2AB36E4B237CE1B700C1867D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2AB36E4A237CE1B700C1867D /* Assets.xcassets */; };
 		2AB36E4E237CE1B700C1867D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2AB36E4C237CE1B700C1867D /* LaunchScreen.storyboard */; };
+		76509AB868C556B62DEF15AE /* Pods_ChatTestRealm.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 578641D6C2A51C086A861268 /* Pods_ChatTestRealm.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2A6DA815237CEDD800099524 /* WelcomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeViewController.swift; sourceTree = "<group>"; };
+		2A6DA817237CEDE500099524 /* ItemViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemViewController.swift; sourceTree = "<group>"; };
+		2A6DA819237CEE2200099524 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		2A6DA81B237CF14700099524 /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
 		2AB36E3E237CE1B500C1867D /* ChatTestRealm.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ChatTestRealm.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2AB36E41237CE1B500C1867D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2AB36E43237CE1B500C1867D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		2AB36E45237CE1B500C1867D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		2AB36E48237CE1B500C1867D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		2AB36E4A237CE1B700C1867D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2AB36E4D237CE1B700C1867D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2AB36E4F237CE1B700C1867D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		481238A882AF2FBCF52706E7 /* Pods-ChatTestRealm.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ChatTestRealm.debug.xcconfig"; path = "Target Support Files/Pods-ChatTestRealm/Pods-ChatTestRealm.debug.xcconfig"; sourceTree = "<group>"; };
+		578641D6C2A51C086A861268 /* Pods_ChatTestRealm.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ChatTestRealm.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5B6C24DE18BE47F018847784 /* Pods-ChatTestRealm.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ChatTestRealm.release.xcconfig"; path = "Target Support Files/Pods-ChatTestRealm/Pods-ChatTestRealm.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +41,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				76509AB868C556B62DEF15AE /* Pods_ChatTestRealm.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -42,6 +53,8 @@
 			children = (
 				2AB36E40237CE1B500C1867D /* ChatTestRealm */,
 				2AB36E3F237CE1B500C1867D /* Products */,
+				F6221E05D93ADBD3839A65B7 /* Pods */,
+				43E47E2605523CC4384207E1 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -58,13 +71,33 @@
 			children = (
 				2AB36E41237CE1B500C1867D /* AppDelegate.swift */,
 				2AB36E43237CE1B500C1867D /* SceneDelegate.swift */,
-				2AB36E45237CE1B500C1867D /* ViewController.swift */,
 				2AB36E47237CE1B500C1867D /* Main.storyboard */,
 				2AB36E4A237CE1B700C1867D /* Assets.xcassets */,
 				2AB36E4C237CE1B700C1867D /* LaunchScreen.storyboard */,
 				2AB36E4F237CE1B700C1867D /* Info.plist */,
+				2A6DA815237CEDD800099524 /* WelcomeViewController.swift */,
+				2A6DA817237CEDE500099524 /* ItemViewController.swift */,
+				2A6DA819237CEE2200099524 /* Constants.swift */,
+				2A6DA81B237CF14700099524 /* Item.swift */,
 			);
 			path = ChatTestRealm;
+			sourceTree = "<group>";
+		};
+		43E47E2605523CC4384207E1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				578641D6C2A51C086A861268 /* Pods_ChatTestRealm.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F6221E05D93ADBD3839A65B7 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				481238A882AF2FBCF52706E7 /* Pods-ChatTestRealm.debug.xcconfig */,
+				5B6C24DE18BE47F018847784 /* Pods-ChatTestRealm.release.xcconfig */,
+			);
+			path = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +107,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2AB36E52237CE1B700C1867D /* Build configuration list for PBXNativeTarget "ChatTestRealm" */;
 			buildPhases = (
+				C206219243E486C733D7E271 /* [CP] Check Pods Manifest.lock */,
 				2AB36E3A237CE1B500C1867D /* Sources */,
 				2AB36E3B237CE1B500C1867D /* Frameworks */,
 				2AB36E3C237CE1B500C1867D /* Resources */,
+				C4A1F2FAC7C44096B3A1D4AE /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -133,13 +168,58 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		C206219243E486C733D7E271 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ChatTestRealm-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C4A1F2FAC7C44096B3A1D4AE /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ChatTestRealm/Pods-ChatTestRealm-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ChatTestRealm/Pods-ChatTestRealm-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ChatTestRealm/Pods-ChatTestRealm-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		2AB36E3A237CE1B500C1867D /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2AB36E46237CE1B500C1867D /* ViewController.swift in Sources */,
+				2A6DA81A237CEE2200099524 /* Constants.swift in Sources */,
+				2A6DA816237CEDD800099524 /* WelcomeViewController.swift in Sources */,
+				2A6DA818237CEDE500099524 /* ItemViewController.swift in Sources */,
 				2AB36E42237CE1B500C1867D /* AppDelegate.swift in Sources */,
+				2A6DA81C237CF14700099524 /* Item.swift in Sources */,
 				2AB36E44237CE1B500C1867D /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -282,6 +362,7 @@
 		};
 		2AB36E53237CE1B700C1867D /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 481238A882AF2FBCF52706E7 /* Pods-ChatTestRealm.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -300,6 +381,7 @@
 		};
 		2AB36E54237CE1B700C1867D /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5B6C24DE18BE47F018847784 /* Pods-ChatTestRealm.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
